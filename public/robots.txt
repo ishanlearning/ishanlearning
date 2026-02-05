@@ -1,0 +1,8 @@
+# robots.txt for Ishan Learning
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ishanlearning.com/sitemap.xml

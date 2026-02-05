@@ -1,0 +1,542 @@
+/* Careers Container */
+.careers-container {
+    margin-top: 80px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #f0f4ff 100%);
+}
+
+:root.dark-mode .careers-container {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2a1f3d 100%);
+}
+
+/* Hero Section */
+.careers-hero {
+  text-align: center;
+  padding: 35px 20px 30px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.12) 0%, rgba(118, 75, 162, 0.12) 100%);
+}
+
+:root.dark-mode .careers-hero {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.06) 0%, rgba(118, 75, 162, 0.06) 100%);
+}
+
+.careers-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+:root.dark-mode .careers-hero h1 {
+  -webkit-text-fill-color: unset;
+  color: #a78bfa;
+}
+
+.careers-hero p {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+:root.dark-mode .careers-hero p {
+  color: #cbd5e1;
+}
+
+/* Section Styles */
+.careers-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+:root.dark-mode .careers-section {
+  border-bottom: none;
+}
+
+.section-content {
+  margin: 0 auto;
+}
+
+.careers-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+:root.dark-mode .careers-section h2 {
+  -webkit-text-fill-color: unset;
+  color: #a78bfa;
+}
+
+.careers-section p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+:root.dark-mode .careers-section p {
+  color: #d1d5db;
+}
+
+.intro-text {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.emphasis {
+  font-weight: 600;
+  color: #667eea;
+  font-style: italic;
+}
+
+:root.dark-mode .emphasis {
+  color: #a78bfa;
+}
+
+/* Highlight Sections */
+.highlight-section {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+  border-radius: 12px;
+  margin: 20px auto;
+  border-left: 5px solid #667eea;
+}
+
+:root.dark-mode .highlight-section {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  border-left-color: #a78bfa;
+}
+
+/* Boundary Box */
+.boundary-box {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border-left: 5px solid #ff9800;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+:root.dark-mode .boundary-box {
+  background: linear-gradient(135deg, #3a2a1e 0%, #4a3a2e 100%);
+  border-left-color: #f59e0b;
+}
+
+.boundary-box h3 {
+  margin: 0 0 12px 0;
+  color: #ff9800;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+:root.dark-mode .boundary-box h3 {
+  color: #f59e0b;
+}
+
+.boundary-box p {
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.boundary-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* Notes Section */
+.careers-notes {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.careers-notes h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #667eea;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+:root.dark-mode .careers-notes h2 {
+  color: #9fb1ff;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.note-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-top: 5px solid;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-top: 50px;
+}
+
+:root.dark-mode .note-card {
+  background: #2a2a3e;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+}
+
+.note-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.2);
+}
+
+:root.dark-mode .note-card:hover {
+  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.25);
+}
+
+.note-icon {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 2.5rem;
+  background: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+  border: 3px solid #667eea;
+}
+
+:root.dark-mode .note-icon {
+  background: #1e1e3f;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.note-card.note-card-students {
+  border-top-color: #667eea;
+}
+
+.note-card.note-card-students .note-icon {
+  border-color: #667eea;
+}
+
+.note-card.note-card-parents {
+  border-top-color: #764ba2;
+}
+
+.note-card.note-card-parents .note-icon {
+  border-color: #764ba2;
+}
+
+.note-card.note-card-teachers {
+  border-top-color: #10b981;
+}
+
+.note-card.note-card-teachers .note-icon {
+  border-color: #10b981;
+}
+
+.note-card h3 {
+  margin: 18px 0 12px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+:root.dark-mode .note-card h3 {
+  color: #e0d5ff;
+}
+
+.note-card.note-card-students h3 {
+  color: #667eea;
+}
+
+.note-card.note-card-parents h3 {
+  color: #764ba2;
+}
+
+:root.dark-mode .note-card.note-card-parents h3 {
+  color: #b8a8d8;
+}
+
+.note-card.note-card-teachers h3 {
+  color: #10b981;
+}
+
+:root.dark-mode .note-card.note-card-teachers h3 {
+  color: #34d399;
+}
+
+.note-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333;
+  margin: 0 0 12px 0;
+}
+
+:root.dark-mode .note-card p {
+  color: #d1d5db;
+}
+
+.note-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* Closing Section */
+.careers-closing {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 35px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 12px;
+}
+
+:root.dark-mode .careers-closing {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+}
+
+.careers-closing h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+:root.dark-mode .careers-closing h2 {
+  -webkit-text-fill-color: unset;
+  color: #a78bfa;
+}
+
+.closing-emphasis {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 12px;
+}
+
+:root.dark-mode .closing-emphasis {
+  color: #a78bfa;
+}
+
+.closing-text {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+:root.dark-mode .closing-text {
+  color: #d1d5db;
+}
+
+.closing-text:last-of-type {
+  margin-bottom: 0;
+}
+
+/* CTA Section */
+.careers-cta {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 12px;
+}
+
+:root.dark-mode .careers-cta {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+}
+
+.careers-cta h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+:root.dark-mode .careers-cta h2 {
+  -webkit-text-fill-color: unset;
+  color: #a78bfa;
+}
+
+.careers-cta p {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+:root.dark-mode .careers-cta p {
+  color: #d1d5db;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 14px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .careers-hero h1 {
+    font-size: 2rem;
+  }
+
+  .careers-hero p {
+    font-size: 1rem;
+  }
+
+  .careers-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .careers-section p {
+    font-size: 0.95rem;
+  }
+
+  .notes-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .note-card {
+    padding: 20px;
+  }
+
+  .careers-closing {
+    padding: 35px 20px;
+  }
+
+  .careers-closing h2 {
+    font-size: 1.6rem;
+  }
+
+  .closing-emphasis {
+    font-size: 1.1rem;
+  }
+
+  .closing-text {
+    font-size: 0.95rem;
+  }
+
+  .careers-cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .careers-cta p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .careers-hero {
+    padding: 30px 15px 25px;
+  }
+
+  .careers-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .careers-hero p {
+    font-size: 0.95rem;
+  }
+
+  .careers-section {
+    padding: 30px 15px;
+  }
+
+  .careers-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .careers-section p {
+    font-size: 0.9rem;
+  }
+
+  .highlight-section {
+    margin: 20px auto;
+  }
+
+  .boundary-box {
+    padding: 20px;
+  }
+
+  .boundary-box h3 {
+    font-size: 1rem;
+  }
+
+  .notes-grid {
+    gap: 12px;
+  }
+
+  .note-card {
+    padding: 15px;
+  }
+
+  .note-card h3 {
+    font-size: 1rem;
+  }
+
+  .note-card p {
+    font-size: 0.9rem;
+  }
+
+  .careers-closing {
+    padding: 25px 15px;
+  }
+
+  .closing-emphasis {
+    font-size: 1rem;
+  }
+
+  .closing-text {
+    font-size: 0.9rem;
+  }
+
+  .careers-cta {
+    padding: 30px 15px;
+  }
+
+  .careers-cta h2 {
+    font-size: 1.3rem;
+  }
+
+  .careers-cta p {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    padding: 12px 30px;
+    font-size: 0.9rem;
+  }
+}

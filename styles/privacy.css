@@ -1,0 +1,196 @@
+.privacy-container {
+  /* max-width: 900px; */
+  margin: 40px auto;
+  padding: 0 20px;
+    margin-top: 80px;
+  font-family: inherit;
+  line-height: 1.6;
+  color: #333;
+}
+
+.privacy-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.effective-date {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.intro {
+  font-size: 1.05rem;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
+
+.privacy-content section {
+  margin-bottom: 35px;
+}
+
+.privacy-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+  font-weight: 600;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.privacy-content p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.privacy-content ul {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.privacy-content li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
+
+.privacy-content ul ul {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.contact-list li {
+  margin-bottom: 12px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .privacy-container {
+    padding: 0 15px;
+    /* margin: 20px auto; */
+  }
+
+  .privacy-content {
+    padding: 20px;
+  }
+
+  .privacy-content h1 {
+    font-size: 2rem;
+  }
+
+  .privacy-content h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .privacy-content {
+    padding: 15px;
+  }
+
+  .privacy-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .privacy-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .intro {
+    padding: 15px;
+  }
+}
+/* =========================
+   DARK MODE – PRIVACY POLICY
+   ========================= */
+
+:root.dark-mode .privacy-container {
+  color: #e5e7eb;
+}
+
+/* Main card */
+:root.dark-mode .privacy-content {
+  background-color: #0f172a; /* deep slate */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Page title */
+:root.dark-mode .privacy-content h1 {
+  color: #f8fafc;
+}
+
+/* Effective date */
+:root.dark-mode .effective-date {
+  color: #94a3b8;
+}
+
+/* Intro highlight box */
+:root.dark-mode .intro {
+  background-color: #020617;
+  color: #cbd5f5;
+  border-left-color: #8b5cf6; /* brand purple */
+}
+
+/* Section headings */
+:root.dark-mode .privacy-content h2 {
+  color: #e0e7ff;
+  border-bottom-color: #8b5cf6;
+}
+
+/* Paragraph text */
+:root.dark-mode .privacy-content p {
+  color: #cbd5e1;
+}
+
+/* Lists */
+:root.dark-mode .privacy-content ul {
+  color: #cbd5e1;
+}
+
+:root.dark-mode .privacy-content li {
+  color: #cbd5e1;
+}
+
+/* Nested lists */
+:root.dark-mode .privacy-content ul ul li {
+  color: #94a3b8;
+}
+
+/* Contact list icons/text */
+:root.dark-mode .contact-list li {
+  color: #e5e7eb;
+}
+
+/* Subtle section spacing glow */
+:root.dark-mode .privacy-content section {
+  border-radius: 8px;
+}
+
+/* Smooth transition */
+.privacy-container,
+.privacy-content,
+.intro,
+.privacy-content h1,
+.privacy-content h2,
+.privacy-content p {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

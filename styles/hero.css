@@ -1,0 +1,539 @@
+.hero {
+  margin-top: 80px;
+  background: linear-gradient(135deg, var(--lavender-light) 0%, #f0e8ff 50%, #e8f5e9 100%);
+  padding: 60px 20px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+.education-right{
+  font-size: 1.9rem;
+  font-weight: 600;
+  font-style: italic;
+color: #133258;
+}
+:root.dark-mode .education-right{
+  color: #bbbbbb;
+}
+@media screen and (max-width: 768px) {
+  .education-right{
+    text-align: center;
+  }
+}
+
+
+/* Updated dark mode background for hero section */
+:root.dark-mode .hero {
+  background: linear-gradient(135deg, #3d2a5e 0%, #2a1f3d 50%, #1a3d2a 100%);
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 50px; */
+  align-items: center;
+  width: 100%;
+}
+.hero-content{
+  gap: 50px;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--lavender-light), #fff9e6);
+  color: var(--purple);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border: 2px solid var(--lavender);
+}
+
+/* Dark mode badge styling */
+:root.dark-mode .hero-badge {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(200, 120, 255, 0.1));
+  color: #c084fc;
+  border-color: #9f7aea;
+}
+
+/* .hero-title {
+  margin-bottom: 30px;
+  color: var(--text-dark);
+} */
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.hero-stat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  width: fit-content;
+}
+.youtubeican{
+  background-color: #4655da;
+  padding: 7px 20px;
+  margin: 10px;
+  border-radius: 50px;
+  width: fit-content;
+  box-shadow: 1px 1px 12px 1px #6f78f7;
+  max-width: 100%;
+  margin-bottom: 30px;
+  height: 100%;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.youtubetxt{
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: 5PX;
+  color: white;
+  /* color: var(--primary-color); */
+}
+@media screen and (max-width: 768px) {
+  .youtubeican{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }   
+  
+}
+.socialyt{
+  background-color:red;
+  width: 50px;
+  height: 35px;
+  border-radius: 25%;
+  color: white;
+  /* background: linear-gradient(135deg, var(--primary-color), var(--purple)); */
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode stat card background */
+:root.dark-mode .hero-stat {
+  background-color: #2a2a3e;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.stat-icon {
+  font-size: 2rem;
+}
+
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary-color), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-placeholder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  animation: float 3s ease-in-out infinite;
+}
+
+.student-avatar:nth-child(2) {
+  animation-delay: 0.2s;
+  background: linear-gradient(135deg, var(--purple), var(--pink));
+}
+
+.student-avatar:nth-child(3) {
+  animation-delay: 0.4s;
+  background: linear-gradient(135deg, var(--teal), var(--cyan));
+}
+
+.student-avatar:nth-child(4) {
+  animation-delay: 0.6s;
+  background: linear-gradient(135deg, var(--accent-color), var(--orange));
+}
+
+.student-avatar:nth-child(5) {
+  animation-delay: 0.8s;
+  background: linear-gradient(135deg, var(--lavender), var(--purple));
+}
+
+/* Added styles for right section with search bar, logo, and social media icons */
+.hero-right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* max-width: 300px; */
+}
+
+:root.dark-mode .search-bar {
+  background-color: #2a2a3e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.search-input {
+  /* height: 40px; */
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  outline: none;
+  padding: 0;
+}
+
+:root.dark-mode .search-input {
+  color: #e0e0e0;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+:root.dark-mode .search-input::placeholder {
+  color: #888;
+}
+
+.search-btn {
+  /* background: linear-gradient(135deg, var(--primary-color), var(--purple)); */
+  color: white;
+  border: 2px solid var(--primary-color);
+  padding: 4px 6px;
+  border-radius: 40%;
+  margin: 0;
+  cursor: pointer;
+  font-size: 1.21rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.search-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo styling */
+.hero-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 250px;
+  background: linear-gradient( #ffffff);
+  border-radius: 20px;
+  border: 2px solid var(--lavender);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+:root.dark-mode .hero-logo {
+  /* background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(200, 120, 255, 0.1)); */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.logo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--purple);
+}
+
+:root.dark-mode .logo-placeholder {
+  color: #c084fc;
+}
+
+.logo-placeholder svg {
+  width: 100%;
+  height: 100%;
+  stroke: var(--purple);
+}
+
+:root.dark-mode .logo-placeholder svg {
+  stroke: #c084fc;
+}
+
+/* Social media icons styling */
+.social-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  /* background: linear-gradient(135deg, var(--primary-color), var(--purple)); */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.whatsapp{
+    width: 65px;
+  height: 65px;
+  border-radius: 50%;
+   background: linear-gradient(135deg,white);
+  /* background: linear-gradient(135deg, var(--primary-color), var(--purple)); */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
+.social-icon:nth-child(1) {
+  background: linear-gradient(135deg,white);
+}
+.social-icon:nth-child(2) {
+  background: linear-gradient(135deg,white);
+}
+
+.social-icon:nth-child(3) {
+  background: linear-gradient(135deg,white);
+}
+
+.social-icon:nth-child(4) {
+  background: linear-gradient(135deg,white);
+}
+
+.social-icon:nth-child(5) {
+  /* height: 40px; */
+  background: linear-gradient(135deg,white);
+}
+
+:root.dark-mode .social-icon {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.whatsapp:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hero-txt{
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-size: 2.5rem; 
+  font-weight: 800;
+  /* color: #313dc0; */
+  line-height: 1.2;
+  background: linear-gradient(120deg, #1e3799 0%, #0984e3 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text;
+  letter-spacing: -0.02em; 
+}
+.highlight{
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-size: 2.5rem; 
+  
+  font-weight: 800;
+  display: inline-block;
+  /* Premium Gold/Blue Gradient to match your logo */
+  background: linear-gradient(120deg, #1e3799 0%, #0984e3 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text;
+  
+  /* Adds a slight 'lift' to the text */
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.1));
+}
+:root.dark-mode .hero-txt{
+  background: linear-gradient(120deg, #e8f5e9 0%, #abd3ff 100%);
+}
+:root.dark-mode .highlight{
+  background: linear-gradient(120deg, #e8f5e9 0%, #abd3ff 100%);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px;
+    min-height: auto;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+/* CRITICAL FIX: Prevent text clipping on small phones <420px */
+@media (max-width: 420px) {
+  .hero {
+    margin-top: 80px;
+    padding: 20px 15px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  /* Remove vertical centering - align content to top */
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  /* Ensure hero content is fully visible */
+  .hero-content {
+    width: 100%;
+    order: 1;
+    margin-top: 10px;
+  }
+
+  .hero-right-section {
+    width: 100%;
+    order: 2;
+  }
+}
+
+
+
+
+/* The "Stay Confident" highlight */
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+
+  .image-placeholder {
+    gap: 10px;
+  }
+
+  .student-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Mobile responsive adjustments for right section */
+  .hero-right-section {
+    gap: 20px;
+  }
+
+  .search-bar {
+    max-width: 100%;
+  }
+
+  .hero-logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+  .linkedin{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 0.7rem;
+  }
+  .whatsapp{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,202 @@
+.terms-container {
+  max-width: auto;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: inherit;
+  line-height: 1.6;
+    margin-top: 80px;
+  color: #333;
+}
+
+.terms-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terms-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.effective-date {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.intro {
+  font-size: 1.05rem;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-left: 4px solid #dc3545;
+  border-radius: 4px;
+}
+
+.terms-content section {
+  margin-bottom: 35px;
+}
+
+.terms-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+  font-weight: 600;
+  border-bottom: 2px solid #dc3545;
+  padding-bottom: 10px;
+}
+
+.terms-content p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.terms-content ul {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.terms-content li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
+
+.terms-content ul ul {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.contact-list li {
+  margin-bottom: 12px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .terms-container {
+    padding: 0 15px;
+    /* margin: 20px auto; */
+  }
+
+  .terms-content {
+    padding: 20px;
+  }
+
+  .terms-content h1 {
+    font-size: 2rem;
+  }
+
+  .terms-content h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-content {
+    padding: 15px;
+  }
+
+  .terms-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .terms-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .intro {
+    padding: 15px;
+  }
+}
+
+/* =========================
+   DARK MODE – TERMS OF SERVICE
+   ========================= */
+:root.dark-mode .terms-container {
+  color: #e5e7eb;
+}
+
+/* Main card */
+:root.dark-mode .terms-content {
+  background-color: #0f172a; /* deep slate */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Page title */
+:root.dark-mode .terms-content h1 {
+  color: #f8fafc;
+}
+
+/* Effective date */
+:root.dark-mode .effective-date {
+  color: #94a3b8;
+}
+
+/* Intro highlight box */
+:root.dark-mode .intro {
+  background-color: #020617;
+  color: #cbd5f5;
+  border-left-color: #dc3545; /* brand red */
+}
+
+/* Section headings */
+:root.dark-mode .terms-content h2 {
+  color: #e0e7ff;
+  border-bottom-color: #dc3545;
+}
+
+/* Paragraph text */
+:root.dark-mode .terms-content p {
+  color: #cbd5e1;
+}
+
+/* Lists */
+:root.dark-mode .terms-content ul {
+  color: #cbd5e1;
+}
+
+:root.dark-mode .terms-content li {
+  color: #cbd5e1;
+}
+
+/* Nested lists */
+:root.dark-mode .terms-content ul ul li {
+  color: #94a3b8;
+}
+
+/* Contact list icons/text */
+:root.dark-mode .contact-list li {
+  color: #e5e7eb;
+}
+
+/* Subtle section spacing glow */
+:root.dark-mode .terms-content section {
+  border-radius: 8px;
+}
+
+/* Smooth transition */
+.terms-container,
+.terms-content,
+.intro,
+.terms-content h1,
+.terms-content h2,
+.terms-content p {
+  transition:
+    background-color
+    var(--transition-speed),
+    color
+    var(--transition-speed),
+    border-color
+    var(--transition-speed);
+}

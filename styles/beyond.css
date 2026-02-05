@@ -1,0 +1,271 @@
+.beyond-container {
+  min-height: 100vh;
+  margin-top: 80px;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.beyond-hero {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 10px 10px;
+}
+
+.beyond-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.beyond-hero p {
+  font-size: 1.25rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.beyond-content {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.beyond-description {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 50px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beyond-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.beyond-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.beyond-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 1 12px 20px #667eea;
+}
+
+.card-number {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 15px 10px; */
+  /* height: 210px; */
+  /* background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); */
+}
+
+.card-image img {
+  /* max-width: 100%; */
+  /* max-height: 120px; */
+  border-radius: 15px;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.card-name {
+  font-size: 1.0rem;
+  font-weight: 600;
+  color: #667eea;
+  /* color: #1a202c; */
+  text-align: center;
+  padding: 0 20px;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+  color: #667eea;
+  text-align: center;
+  padding: 5px 20px;
+  font-weight: 500;
+}
+
+.card-features {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.card-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-features li {
+  padding: 8px 0;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.card-button {
+  margin: 20px;
+  padding: 12px 24px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px #667eea;
+}
+
+.beyond-cta {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.beyond-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.beyond-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  background: white;
+  color: #667eea;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode support */
+[data-theme="dark"] .beyond-container {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+}
+
+[data-theme="dark"] .beyond-hero h1,
+[data-theme="dark"] .beyond-cta h2 {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .beyond-hero p,
+[data-theme="dark"] .beyond-description {
+  color: #cbd5e0;
+}
+
+[data-theme="dark"] .beyond-card {
+  background: #2d3748;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .card-name {
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .card-features li {
+  color: #cbd5e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .beyond-container {
+    padding: 40px 15px;
+  }
+
+  .beyond-hero h1 {
+    font-size: 2rem;
+  }
+
+  .beyond-hero p {
+    font-size: 1rem;
+  }
+
+  .beyond-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card-number {
+    font-size: 2.5rem;
+    padding: 15px 0;
+  }
+
+  .beyond-cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .beyond-cta p {
+    font-size: 1rem;
+  }
+}
+
+/* =========================
+   DARK MODE – BEYOND FEATURES
+   ========================= */
+:root.dark-mode .beyond-container {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+}
+:root.dark-mode .beyond-hero h1,
+:root.dark-mode .beyond-cta h2 {
+  color: #e2e8f0;
+} 
+:root.dark-mode .beyond-hero p,
+:root.dark-mode .beyond-description {
+  color: #cbd5e0;
+}
+:root.dark-mode .beyond-card {
+  background: #2d3748;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+:root.dark-mode .card-name {
+  color: #e2e8f0;
+}
+:root.dark-mode .card-features li {
+  color: #cbd5e0;
+}

@@ -1,0 +1,105 @@
+.features {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, var(--bg-light) 0%, #fff5f7 100%);
+}
+
+/* Dark mode features background */
+:root.dark-mode .features {
+  background: transparent;
+  /* background: linear-gradient(135deg, #2a2a3e 0%, #3d2a3e 100%); */
+}
+
+.features-container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+  border-top: 4px solid var(--primary-color);
+  border-bottom: 4px solid var(--primary-color);
+
+  position: relative;
+}
+
+/* Dark mode feature card background */
+:root.dark-mode .feature-card {
+  background-color: #1a1a2e;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.feature-card:nth-child(2) {
+  border-top-color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+.feature-card:nth-child(3) {
+  border-top-color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+:root.dark-mode .feature-card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  /* display: inline-block; */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--lavender-light), #fff5f7);
+}
+
+/* Dark mode feature icon background */
+:root.dark-mode .feature-icon {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(200, 100, 200, 0.15));
+}
+
+.feature-card h3 {
+  margin-bottom: 15px;
+  color: var(--text-dark);
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 40px 20px;
+  }
+
+  .features-container {
+    gap: 20px;
+  }
+
+  .feature-card {
+    padding: 30px 20px;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+}

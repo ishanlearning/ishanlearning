@@ -1,0 +1,109 @@
+.home-button {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 999;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+}
+
+.home-button:active {
+  transform: scale(0.95);
+}
+
+.home-icon {
+  font-size: 1.rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .home-button {
+    bottom: 40px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .home-icon {
+    font-size: 1.5rem;
+  }
+}
+
+/* Dark mode support */
+[data-theme="dark"] .home-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.6);
+}
+
+[data-theme="dark"] .home-button:hover {
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.8);
+}
+
+.BTT {
+  position: fixed;
+  bottom: 70px;
+  left: 30px;
+  font-size: large;
+  font-weight: 600;
+  width: Auto;
+  z-index: 999;
+  padding: 9px;
+  /* height: 50px; */
+  /* color: rgb(233, 233, 233); */
+  border-radius: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 999;
+  text-decoration: none;
+}
+/* :root.dark-mode .BTT {
+  color: white;
+} */
+
+.BTT:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+}
+
+.BTT:active {
+  transform: scale(0.95);
+}
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .BTT {
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+    width: fit-content;
+    height: 50px;
+  }
+}
+
+/* Dark mode support */
+[data-theme="dark"] .BTT {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.6);
+}
+
+[data-theme="dark"] .BTT:hover {
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.8);
+}
