@@ -85,11 +85,11 @@
 
 .footer-socials {
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
 
 .footer-socials a {
-  width: 35px;
+  width: 30px;
   padding: 5px;
   background-color: #fff;
   border-radius: 50%  ;
