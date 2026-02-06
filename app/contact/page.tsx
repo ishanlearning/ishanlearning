@@ -23,7 +23,6 @@ export default function Contact() {
           <div className="contact-card" title="Academic queries contact card">
             <div className="card-icon" title="Academic icon">📚</div>
             <h3 title="Academic queries section">{t("academicQueries")}</h3>
-            <h1>hii this is testing time</h1>
             <p title="For academic questions and support">{t("queriesFor")}</p>
 
             <div className="contact-actions" title="Action buttons for academic support">
