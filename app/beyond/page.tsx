@@ -54,13 +54,13 @@ export default function Beyond() {
       link: "https://www.youtube.com/playlist?list=PL8LuoZnQO2-qw3lTknYcfqXJh7WPZzPpB",
     },
     {
-      image: "/15.png",
+      image: "/15.jpeg",
       name: t("IndianRoots"),
       button: t("IndianRootsBtn"),
       link: "https://www.youtube.com/playlist?list=PL8LuoZnQO2-ry6AS-44k1YiWEPEFAfEhd",
     },
     {
-      image: "/16.png",
+      image: "/16.jpeg",
       name: t("SmartDigitalLife"),
       button: t("SmartDigitalLifeBtn"),
       link: "https://www.youtube.com/playlist?list=PL8LuoZnQO2-pe3U_KepamfIWZv0MBSHNJ",

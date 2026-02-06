@@ -37,7 +37,7 @@ export default function Classes() {
       <div className="Schedule" title="Access today's class schedule">
         <div className="Schedule-placeholder">
           <a href="https://drive.google.com/drive/folders/1ld0tHroFusFZ-dJQeeAI3zMh_4o5f2Y6" target="_blank" rel="noopener noreferrer" title="Open today's class schedule in Google Drive">
-            <img src="Schedule.png" alt="Today's Class Schedule" className="Schedule-image" title="Today's class schedule" />
+            <img src="Schedule.jpeg" alt="Today's Class Schedule" className="Schedule-image" title="Today's class schedule" />
             <div className="TDYC" title="View schedule of today's classes">{t("todayClassSchedule")}</div>
           </a>
         </div>

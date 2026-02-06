@@ -35,7 +35,7 @@ export default function WhyChoose() {
         <div className="why-choose-image" title="Query form and submission section">
           <div className="query-form-container" title="Submit your questions container">
             <h2 className="qrtxt" title="Have questions heading">{t("haveQuestions")}</h2>
-            <img className="whyimg" src="/qr.png" alt="Query Illustration" width={380} height={380} title="QR code for query submission" />
+            <img className="whyimg" src="/qr.jpeg" alt="Query Illustration" width={380} height={380} title="QR code for query submission" />
               <div className="query-instructions" title="Query submission instructions">
               <h2 className="qrtxt" title="Submit your query heading">{t("submitYourQuery")}</h2>
               <a href="https://forms.gle/8fhKYyaFgNyHrG99A" target="_blank" title="Open query form">
