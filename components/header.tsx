@@ -45,7 +45,7 @@ export default function Header() {
           <div className="header-logo">
             {/* <div className="logo-icon"><Image src="/logohead.png" alt="Logo" width={60} height={60} /></div>
             <div className="logo-text"><Image src="/logotxt.png" alt="Logo" width={60} height={60}></Image></div> */}
-             <div className="logo-text"><Image className="imglogo" src="/logonev.jpg" alt="Ishan Learning Logo" width={130} height={100}></Image></div>
+             <div className="logo-text"><Image className="imglogo" src="/logonev.jpg" alt="Ishan Learning" width={130} height={100}></Image></div>
           </div>
         </Link>
 

@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-section">
           <div className="footer-logo">
-            <a href="/"><img src="/logonev.jpg" alt="Ishan Learning Logo" width={150} height={100} /></a>
+            <a href="/"><img src="/logonev.jpg" alt="Ishan Learning" width={150} height={100} /></a>
             {/* <h4>Ishan Learning</h4> */}
           </div>
           <p>

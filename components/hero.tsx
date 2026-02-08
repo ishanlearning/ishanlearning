@@ -32,7 +32,7 @@ export default function Hero() {
           {/* Logo */}
           <div className="hero-logo" title="Ishan Learning brand logo">
             <div className="logo-placeholder">
-              <img src="logo.png" alt="Ishan Learning Logo" className="logo-image" title="Ishan Learning Logo" />
+              <img src="logo.png" alt="Ishan Learning" className="logo-image" title="Ishan Learning" />
             </div>
           </div>
 

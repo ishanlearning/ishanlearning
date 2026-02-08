@@ -87,9 +87,7 @@ color: black;
     width: 80%;          
   }
 }
-.TDYC{
-  /* color: var(--text-dark); */
-}
+
 
 .classbtn{
   align-items: center;
@@ -210,6 +208,9 @@ color: black;
 @media (max-width: 768px) {
   .classes {
     padding: 40px 20px;
+  }
+  .class-name {
+    font-size: 0.8rem;
   }
 
   .classes-container h2 {

@@ -10,9 +10,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ishan Learning",
-  description: "Learn Smart, Stay Confident",
-  generator: "v0.app",
+  title: "Ishan Learning - Free Learning Support Platform for Classes 6-12",
+  description: "Ishan Learning is a free learning support platform for students of Classes 6-12, offering structured video lessons and clear study notes along with self-reflection tools, practice resources, career awareness, guidance and exam-stress support. The platform also encourages learning beyond textbooks through real-life awareness, mini learning challenges, inspiring stories, yoga and mind discipline, Indian roots and values, thoughtful “think and learn” activities, smart digital life skills, learning myths and facts and opportunities for art and creative expression, helping students learn clearly, grow confidently and develop holistically.",
   robots: "index, follow",
   alternates: {
     canonical: "https://ishanlearning.com",
@@ -27,26 +26,38 @@ export const metadata: Metadata = {
         url: "https://ishanlearning.com/logonev.jpg",
         width: 800,
         height: 600,
-        alt: "Ishan Learning Logo",
+        alt: "Ishan Learning",
       },
     ],
   },
   icons: {
     icon: [
       {
-        url: "/logonev.jpg",
+        url: "/icon.jpg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/logonev.jpg",
+        url: "/icon.jpg",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/logonev.jpg",
-        type: "image/svg+xml",
+        url: "/icon.jpg",
+        type: "image/jpg",
+      },
+      {
+        url: "/icon.jpeg",
+        type: "image/jpeg",
+      },
+      {
+        url: "/icon.svg",
+        type: "image/svg",
+      },
+      {
+        url: "/icon.png",
+        type: "image/png",
       },
     ],
-    apple: "/logonev.jpg",
+    apple: "/icon.svg",
   },
 }
 
