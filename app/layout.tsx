@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Ishan Learning",
-    siteName: "Ishan Learning",
+    siteName: "ISHAN LEARNING",
     description: "Learn Smart, Stay Confident",
     type: "website",
     url: "https://ishanlearning.com",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
   card: "summary_large_image",
-  title: "Ishan Learning",
+  title: "ISHAN LEARNING",
   description: "Learn Smart, Stay Confident",
   images: ["https://ishanlearning.com/logonev.jpg"],
 },
@@ -91,7 +91,20 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-NRB756NMQ4');`}
         </Script>
-      </head>
+        <Script
+  id="site-name"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "ISHAN LEARNING",
+      alternateName: "ISHAN LEARNING",
+      url: "https://ishanlearning.com/"
+    }),
+  }}
+/>      
+</head>
       <body className={`${_geist.className} antialiased`}>
         <LanguageProvider>
           {children}
