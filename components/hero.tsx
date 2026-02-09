@@ -13,7 +13,7 @@ export default function Hero() {
             <div className="hero-txt" title="Learn smart with Ishan Learning"> {t("class6to12")}</div>
             <span className="highlight" title="Stay confident in your studies">{t("stayConfident")}</span>
           </h1>
-          <a href="https://www.youtube.com/@IshanLearning" className="youtubeican" title="Visit Ishan Learning YouTube Channel" target="_blank">
+          <a href="https://www.youtube.com/@IshanLearningyt" className="youtubeican" title="Visit Ishan Learning YouTube Channel" target="_blank">
             <div className="socialyt" title="YouTube Play Icon" >
               ▶
             </div>
@@ -38,13 +38,13 @@ export default function Hero() {
 
           {/* Social media icons */}
           <div className="social-icons" title="Connect with Ishan Learning on social media">
-            <a href="https://www.facebook.com/ishanlearning/" className="social-icon" title="Follow Ishan Learning on Facebook" target="_blank">
+            <a href="https://www.facebook.com/ishanlearnings/" className="social-icon" title="Follow Ishan Learning on Facebook" target="_blank">
               <img src="/face.png" alt="Facebook Icon" width={65} height={65} title="Facebook" />
             </a>
             <a href="https://x.com/ishanlearning" className="social-icon" title="Follow Ishan Learning on Twitter" target="_blank">
               <img src="/x.png" alt="Twitter Icon" width={65} height={65} title="Twitter" />
             </a>
-            <a href="https://www.instagram.com/ishanlearning/" className="social-icon" title="Follow Ishan Learning on Instagram" target="_blank">
+            <a href="https://www.instagram.com/learningishan" className="social-icon" title="Follow Ishan Learning on Instagram" target="_blank">
               <img src="/insta.png" alt="Instagram Icon" width={64} height={64} title="Instagram" />
             </a>
             <a href="https://www.threads.net/@ishanlearning" className="social-icon whatsapp" title="Follow Ishan Learning on Thread" target="_blank">

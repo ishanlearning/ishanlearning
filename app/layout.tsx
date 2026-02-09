@@ -10,7 +10,11 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ishan Learning - Free Learning Support Platform for Classes 6-12",
+  title: {
+    default: "Ishan Learning - Free Learning Support Platform for Classes 6-12",
+    template: "%s | Ishan Learning",
+  },
+  applicationName: "ISHAN LEARNING",
   description: "Ishan Learning is a free learning support platform for students of Classes 6-12, offering structured video lessons and clear study notes along with self-reflection tools, practice resources, career awareness, guidance and exam-stress support. The platform also encourages learning beyond textbooks through real-life awareness, mini learning challenges, inspiring stories, yoga and mind discipline, Indian roots and values, thoughtful “think and learn” activities, smart digital life skills, learning myths and facts and opportunities for art and creative expression, helping students learn clearly, grow confidently and develop holistically.",
   robots: "index, follow",
   alternates: {
@@ -18,6 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Ishan Learning",
+    siteName: "Ishan Learning",
     description: "Learn Smart, Stay Confident",
     type: "website",
     url: "https://ishanlearning.com",
@@ -30,8 +35,18 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+  card: "summary_large_image",
+  title: "Ishan Learning",
+  description: "Learn Smart, Stay Confident",
+  images: ["https://ishanlearning.com/logonev.jpg"],
+},
   icons: {
     icon: [
+      {
+        url: "/favicon.ico",
+        type: "image/x-icon",
+      },
       {
         url: "/icon.jpg",
         media: "(prefers-color-scheme: light)",
