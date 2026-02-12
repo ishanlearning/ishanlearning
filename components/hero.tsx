@@ -13,7 +13,7 @@ export default function Hero() {
             <div className="hero-txt" title="Learn smart with Ishan Learning"> {t("class6to12")}</div>
             <span className="highlight" title="Stay confident in your studies">{t("stayConfident")}</span>
           </h1>
-          <a href="https://www.youtube.com/@IshanLearningyt" className="youtubeican" title="Visit Ishan Learning YouTube Channel" target="_blank">
+          <a href="https://www.youtube.com/@IshanLearning" className="youtubeican" title="Visit Ishan Learning YouTube Channel" target="_blank">
             <div className="socialyt" title="YouTube Play Icon" >
               ▶
             </div>

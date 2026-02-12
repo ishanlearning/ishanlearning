@@ -74,7 +74,7 @@ export default function Footer() {
           <a href="https://t.me/ishanlearning" target="_blank" title="Telegram"><img src="\tel.png" alt="telegram" /></a>
           <a href="https://www.linkedin.com/company/ishanlearning/" target="_blank" title="LinkedIn"><img src="\i.png" alt="linkedin" /></a>
           <a href="https://whatsapp.com/channel/0029VbBxn9r4dTnCnjumby2d" target="_blank" title="WhatsApp"><img src="\w.png" alt="whatsapp" /></a>
-          <a href="https://www.youtube.com/@ishanlearningyt" target="_blank" title="YouTube"><img src="\yt.png" alt="youtube" /></a>
+          <a href="https://www.youtube.com/@ishanlearning" target="_blank" title="YouTube"><img src="\yt.png" alt="youtube" /></a>
         </div>
       </div>
     </footer>

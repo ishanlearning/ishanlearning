@@ -43,7 +43,7 @@ const translations: Translations = {
   // Features section
   ourLearningApproach: { en: "Our Learning Approach", hi: "हमारी शिक्षण पद्धति" },
   strongConceptual: { en: "Strong Conceptual Foundation", hi: "मजबूत वैचारिक नींव" },
-  conceptDesc: { en: "Clear and structured aligned with CBSC and state boards curricula, helping students understand concepts deeply and learn with confidence without unnecessary stress.", hi: "CBSE और राज्य बोर्ड के पाठ्यक्रम के अनुसार स्पष्ट और व्यवस्थित पढ़ाई, जिससे छात्र गहराई से समझ पाते हैं और बिना अनावश्यक दबाव के आत्मविश्वास के साथ सीखते हैं।" },
+  conceptDesc: { en: "Clear and structured aligned with CBSE and state boards curricula, helping students understand concepts deeply and learn with confidence without unnecessary stress.", hi: "CBSE और राज्य बोर्ड के पाठ्यक्रम के अनुसार स्पष्ट और व्यवस्थित पढ़ाई, जिससे छात्र गहराई से समझ पाते हैं और बिना अनावश्यक दबाव के आत्मविश्वास के साथ सीखते हैं।" },
   holisticGrowthTitle: { en: "Holistic Growth", hi: "समग्र विकास" },
   holisticDesc: { en: "Focusing on emotional intelligence, confidence building and personality development.", hi: "भावनात्मक समझ, आत्मविश्वास बढ़ाने और व्यक्तित्व विकास पर ध्यान।" },
   studentSupportTitle: { en: "Student Support", hi: "छात्र सहायता" },
