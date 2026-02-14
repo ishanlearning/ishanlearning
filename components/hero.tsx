@@ -44,7 +44,7 @@ export default function Hero() {
             <a href="https://x.com/ishanlearning" className="social-icon" title="Follow Ishan Learning on Twitter" target="_blank">
               <img src="/x.png" alt="Twitter Icon" width={65} height={65} title="Twitter" />
             </a>
-            <a href="https://www.instagram.com/learningishan" className="social-icon" title="Follow Ishan Learning on Instagram" target="_blank">
+            <a href="https://www.instagram.com/ishanlearning" className="social-icon" title="Follow Ishan Learning on Instagram" target="_blank">
               <img src="/insta.png" alt="Instagram Icon" width={64} height={64} title="Instagram" />
             </a>
             <a href="https://www.threads.net/@ishanlearning" className="social-icon whatsapp" title="Follow Ishan Learning on Thread" target="_blank">

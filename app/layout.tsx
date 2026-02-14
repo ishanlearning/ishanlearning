@@ -92,18 +92,28 @@ gtag('js', new Date());
 gtag('config', 'G-NRB756NMQ4');`}
         </Script>
         <Script
-  id="site-name"
+  id="organization-schema"
   type="application/ld+json"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "WebSite",
+      "@type": "Organization",
       name: "ISHAN LEARNING",
-      alternateName: "ISHAN LEARNING",
-      url: "https://ishanlearning.com/"
+      alternateName: "Ishan Learning",
+      url: "https://ishanlearning.com",
+      logo: "https://ishanlearning.com/logonev.jpg",
+      sameAs: [
+        "https://www.youtube.com/@ishanlearning",
+        "https://www.instagram.com/ishanlearning",
+        "https://www.facebook.com/ishanlearnings",
+        "https://x.com/ishanlearning",
+        "https://www.linkedin.com/company/ishanlearning/",
+        "https://www.threads.net/@ishanlearning",   
+        "https://t.me/ishanlearning"               
+      ]
     }),
   }}
-/>      
+/>     
 </head>
       <body className={`${_geist.className} antialiased`}>
         <LanguageProvider>

@@ -69,7 +69,7 @@ export default function Footer() {
         <div className="footer-socials">
           <a href="https://www.facebook.com/ishanlearnings" target="_blank" title="Facebook"><img src="\fb.png" alt="facebook" /></a>
           <a className="linkimg" href="https://x.com/ishanlearning" target="_blank" title="Twitter"><img src="\tw.png" alt="twitter" height={20} width={20} /></a>
-          <a href="https://www.instagram.com/learningishan" target="_blank" title="Instagram"><img src="\ins.png" alt="instagrem" /></a>
+          <a href="https://www.instagram.com/ishanlearning" target="_blank" title="Instagram"><img src="\ins.png" alt="instagrem" /></a>
            <a href="https://www.threads.net/@ishanlearning" target="_blank" title="Theard"><img src="\th.png" alt="Theard" height={32} width={32} /></a>
           <a href="https://t.me/ishanlearning" target="_blank" title="Telegram"><img src="\tel.png" alt="telegram" /></a>
           <a href="https://www.linkedin.com/company/ishanlearning/" target="_blank" title="LinkedIn"><img src="\i.png" alt="linkedin" /></a>

@@ -79,7 +79,7 @@ const translations: Translations = {
   mentalWellbeing: { en: "Mental Well-Being Self-Reflection", hi: "मानसिक कल्याण आत्म-चिंतन" },
   wellbeingDesc: { en: "Because learning works best when the mind feels supported, not pressured.", hi: "क्योंकि सीखना सबसे अच्छा तब होता है, जब मन सुरक्षित महसूस करे और उसे सहारा मिले, न कि दबाव।" },
   startCheck: { en: "Start Check", hi: "जाँच शुरू करें" },
-  requestCounseling: { en: "Request a Counseling Session", hi: "परामर्श सत्र का अनुरोध करें" },
+  requestCounselling: { en: "Request a Counselling Session", hi: "परामर्श सत्र का अनुरोध करें" },
   // About Us section
   aboutPageTitle: { en: "About Ishan Learning", hi: "ईशान लर्निंग के बारे में" },
   clarityConfidenceSupport: { en: "Clarity, Confidence and Supportive Learning", hi: "स्पष्टता, आत्मविश्वास और सहायक शिक्षा" },

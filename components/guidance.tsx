@@ -31,7 +31,7 @@ export default function Guidance() {
 
   return (
     <section className="guidance" id="guidance" title="Guidance and wellbeing support section">
-      <div className="guidance-container" title="Guidance and counseling resources">
+      <div className="guidance-container" title="Guidance and counselling resources">
         <div className="guidance-header" title="Guidance and wellbeing information">
           <h2 title="Guidance and wellbeing corner heading">{t("guidanceWellbeingCorner")}</h2>
           <p title="Motivational message about learning with a calm mind">{t("calmMindLearns")}</p>
@@ -55,8 +55,8 @@ export default function Guidance() {
             </div>
           ))}
         </div>
-        <a className="request-a-session" href="https://forms.gle/KwyZ2Cz2wTqjoYgv6" target="_blank" title="Request counseling session from Ishan Learning"> 
-          <button className="session-btn" title="Click to request a counseling session">{t("requestCounseling")}</button>
+        <a className="request-a-session" href="https://forms.gle/KwyZ2Cz2wTqjoYgv6" target="_blank" title="Request counselling session from Ishan Learning"> 
+          <button className="session-btn" title="Click to request a counselling session">{t("requestCounselling")}</button>
         </a>
       <Link href="\tdy" className="home-button1" target="_blank" title="View today's schedule">
       {/* <span className="home-icon-txt">Today's Class Schedule </span> */}
