@@ -1,3 +1,4 @@
+"use client"
 import "@/styles/hero.css";
 import { useLanguage } from "@/components/language-context";
 import SearchClass from "@/components/search"

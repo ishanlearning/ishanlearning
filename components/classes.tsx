@@ -1,3 +1,4 @@
+"use client";
 import "@/styles/classes.css";
 import Link from "next/link";
 import { useLanguage } from "@/components/language-context";

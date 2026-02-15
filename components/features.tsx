@@ -1,3 +1,4 @@
+"use client"
 import "@/styles/features.css"
 import { useLanguage } from "@/components/language-context"
 

@@ -1,3 +1,4 @@
+"use client";
 import "@/styles/why-choose.css"
 import { useLanguage } from "@/components/language-context"
 

@@ -10,6 +10,12 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ishanlearning.com"),
+viewport: {
+  width: "device-width",
+  initialScale: 1,
+},
+
   title: {
     default: "Ishan Learning - Free Learning Support Platform for Classes 6-12",
     template: "%s | Ishan Learning",
@@ -82,7 +88,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-IN">
       <head>
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NRB756NMQ4" />
         <Script id="google-analytics" strategy="afterInteractive">
