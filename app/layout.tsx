@@ -120,6 +120,19 @@ gtag('config', 'G-NRB756NMQ4');`}
     }),
   }}
 />     
+<Script
+  id="website-schema"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+   __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Ishan Learning",
+      url: "https://ishanlearning.com/"
+    }),
+  }}
+/>
 </head>
       <body className={`${_geist.className} antialiased`}>
         <LanguageProvider>
