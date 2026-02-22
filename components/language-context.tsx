@@ -2469,7 +2469,7 @@ examStress7: {
 
 examStress8: {
   en: "I struggle to relax when exams are near",
-  hi: "परीक्षा पास होने पर मुझे खुद को शांत रखना मुश्किल लगता है"
+  hi: "परीक्षा नज़दीक होने पर मुझे खुद को शांत रखना मुश्किल लगता है"
 },
 
 examStress9: {
