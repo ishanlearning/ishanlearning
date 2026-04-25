@@ -856,6 +856,10 @@ accessContent: {
   en: "3. Access to Learning Content",
   hi: "3. शिक्षण सामग्री तक पहुँच"
 },
+  accessContentPry: {
+  en: "1. Access to Learning Content",
+  hi: "1. शिक्षण सामग्री तक पहुँच"
+},
 
 canAccess: {
   en: "Users can access learning content without login or registration",
