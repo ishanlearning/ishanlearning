@@ -22,7 +22,7 @@ export default function ClientPrivacyPolicy() {
           </p>
 
           <section>
-            <h2>{t("accessContent")}</h2>
+            <h2>{t("accessContentPry")}</h2>
             <ul>
               <li>
                 {t("canAccess")}
