@@ -33,6 +33,39 @@
   -webkit-text-fill-color: unset;
   color: #a78bfa;
 }
+.founder-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.founder-image {
+  width: 150px;
+  padding: 2px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #667eea;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+:root.dark-mode .founder-image {
+  border-color: #a78bfa;
+}
+/* Mobile view for founder-text */
+@media (max-width: 560px) {
+  .founder-image {
+  width: 100px;
+  height: 100px;
+    margin-bottom: 2px;
+}
+  .founder-info{
+  flex-direction: column;
+  }
+  .founder-title {
+    text-align: center;
+  }
+}
 
 .about-hero p {
   font-size: 1.3rem;
@@ -422,11 +455,12 @@
 
 .founder-title {
   font-size: 1.1rem;
+  
   color: #999;
   margin-bottom: 25px;
   font-weight: 600;
   border-bottom: 2px solid #e0e7ff;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 :root.dark-mode .founder-title {

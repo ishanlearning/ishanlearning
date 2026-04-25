@@ -8,11 +8,11 @@ import "@/styles/about.css"
 
 export default function ClientAbout() {
   const { t } = useLanguage()
-  
+
   return (
     <div className="app" title="About Ishan Learning - Our story, mission, and values">
       <Header />
-      
+
       <main className="about-container" title="About Us - Learn about Ishan Learning platform">
         <section className="about-hero" title="About page hero section with introduction">
           <h1 title="About Ishan Learning page title">{t("aboutPageTitle")}</h1>
@@ -175,8 +175,13 @@ export default function ClientAbout() {
           <div className="section-content" title="Founder information and background">
             <h2 title="Founder section heading">{t("founder")}</h2>
             <div className="founder-card" title="Founder details and bio">
-              <h3 title="Founder name">{t("founderName")}</h3>
-              <p className="founder-title" title="Founder professional title">{t("founderTitle")}</p>
+              <div className="founder-info" title="Founder photograph and name">
+                <img src="/Abhishek_Saini1.jpeg" alt="Founder" className="founder-image" title="Founder photograph" />
+                <div className="founder-text" title="Founder name and title">
+                  <h3 title="Founder name">{t("founderName")}</h3>
+                  <p className="founder-title" title="Founder professional title">{t("founderTitle")}</p>
+                </div>
+              </div>
               <p title="Founder biography paragraph 1">
                 {t("founderDesc1")}
               </p>
