@@ -345,8 +345,8 @@ founderDesc1: {
 },
 
 founderDesc2: {
-  en: "The platform is guided by Abhishek Saini, who holds Master's degrees in Psychology and Sociology. He is a Gold Medalist in Psychology, has qualified UGC-NET with JRF in Sociology and is currently pursuing a PhD in Sociology.",
-  hi: "यह मंच अभिषेक सैनी के मार्गदर्शन में संचालित है, जिनके पास मनोविज्ञान और समाजशास्त्र में मास्टर डिग्री है। वे मनोविज्ञान में गोल्ड मेडलिस्ट हैं, समाजशास्त्र में JRF के साथ UGC-NET उत्तीर्ण कर चुके हैं और वर्तमान में समाजशास्त्र में पीएचडी कर रहे हैं।"
+  en: "The platform is guided by Abhishek Saini, who holds Master's degrees in Psychology and Sociology. He is a Gold Medalist in Psychology, has qualified the GATE examination in Psychology as well as UGC-NET with JRF in Sociology and is currently pursuing a PhD in Sociology.",
+  hi: "यह मंच अभिषेक सैनी के मार्गदर्शन में संचालित है, जिनके पास मनोविज्ञान और समाजशास्त्र में मास्टर डिग्री है। वे मनोविज्ञान में गोल्ड मेडलिस्ट हैं, मनोविज्ञान में GATE परीक्षा उत्तीर्ण हैं, समाजशास्त्र में JRF के साथ UGC-NET उत्तीर्ण कर चुके हैं और वर्तमान में समाजशास्त्र में पीएचडी कर रहे हैं।"
 },
 
 founderDesc3: {
