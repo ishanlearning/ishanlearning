@@ -39,7 +39,7 @@ export default function Hero() {
 
           {/* Social media icons */}
           <div className="social-icons" title="Connect with Ishan Learning on social media">
-            <a href="https://www.facebook.com/ishanlearnings/" className="social-icon" title="Follow Ishan Learning on Facebook" target="_blank">
+            <a href="https://www.facebook.com/ishanlearning/" className="social-icon" title="Follow Ishan Learning on Facebook" target="_blank">
               <img src="/face.png" alt="Facebook Icon" width={65} height={65} title="Facebook" />
             </a>
             <a href="https://x.com/ishanlearning" className="social-icon" title="Follow Ishan Learning on Twitter" target="_blank">
