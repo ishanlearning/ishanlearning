@@ -424,14 +424,10 @@ storiesInspire: {
   en: " Stories, knowledge, creativity and fun for young minds.",
   hi: "बच्चों के लिए ज्ञान, कहानियों, रचनात्मकता और मस्ती से भरी दुनिया।"
 },
-storiesInspirename:{
-  en:"Kids Bulletin",
-  hi:"किड्स बुलेटिन"
-},
 
 storiesInspireBtn: {
-  en: "Stories That Inspire",
-  hi: "प्रेरक कहानियाँ"
+  en: "Kids Bulletin",
+  hi:"किड्स बुलेटिन"
 },
 
 thinkExplore: {
