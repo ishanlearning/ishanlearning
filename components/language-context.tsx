@@ -410,6 +410,7 @@ growConfidence: {
 },
 
 // Beyond the Classroom section
+  
 beyondTheClassroom: {
   en: "Beyond the Classroom",
   hi: "किताबों से आगे की दुनिया"
@@ -420,14 +421,23 @@ learningExperienceCreativity: {
   hi: "अनुभव, रचनात्मकता और प्रेरणा के माध्यम से सीखना"
 },
 
-storiesInspire: {
-  en: " Stories, knowledge, creativity and fun for young minds.",
+ kids:{
+     en: " Stories, knowledge, creativity and fun for young minds.",
   hi: "बच्चों के लिए ज्ञान, कहानियों, रचनात्मकता और मस्ती से भरी दुनिया।"
+ }, 
+  kidsbtn:{
+    en: "Kids Bulletin",
+  hi:"किड्स बुलेटिन"
+  },
+  
+storiesInspire: {
+  en: "Real stories that spark dreams, build confidence and shape strong values.",
+  hi: "असली कहानियाँ जो सपनों को जगाती हैं, आत्मविश्वास बढ़ाती हैं और मजबूत मूल्यों को गढ़ती हैं।"
 },
 
 storiesInspireBtn: {
-  en: "Kids Bulletin",
-  hi:"किड्स बुलेटिन"
+  en: "Stories That Inspire",
+  hi: "प्रेरक कहानियाँ"
 },
 
 thinkExplore: {
