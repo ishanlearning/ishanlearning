@@ -21,7 +21,7 @@ export default function ClientBeyond() {
       image: "/1.jpg",
       name: t("storiesInspire"),
       button: t("storiesInspireBtn"),
-      link: "https://drive.google.com/drive/folders/1qFz5pozKpG7uJPWnxEJI-rMjVi0MzaA7?usp=drive_link",
+      link: "https://www.youtube.com/playlist?list=PL8LuoZnQO2-p9sqQxAqmj0O9BgJgZRRl0",
     },
     {
       image: "/2.jpg",
