@@ -12,8 +12,7 @@ export default function ClientBeyond() {
   
   const classes = [
     {
-      image: "/1.jpg",
-      title:t("storiesInspirename"),
+      image: "/IMG-20260924-WA0017.jpg"),
       name: t("storiesInspire"),
       button: t("storiesInspireBtn"),
       link: "https://drive.google.com/drive/folders/1qFz5pozKpG7uJPWnxEJI-rMjVi0MzaA7?usp=drive_link",
@@ -94,7 +93,7 @@ export default function ClientBeyond() {
                     height={180}
                     title={`${cls.name} program thumbnail`}
                   /> 
-                </div><div className="card-title"> {cls.title} </div>
+                </div>
                 <div className="card-name" title={`Program name: ${cls.name}`}>{cls.name}</div>
                 {/* <div className="card-subtitle">Special Programs</div> */}
                 <a className="card-button" href={cls.link} target="_blank" title={`Open ${cls.name} playlist on YouTube`}>
