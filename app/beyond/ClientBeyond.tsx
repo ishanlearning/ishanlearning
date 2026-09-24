@@ -12,7 +12,7 @@ export default function ClientBeyond() {
   
   const classes = [
     {
-      image: "/IMG-20260924-WA0017.jpg"),
+      image: "/IMG-20260924-WA0017.jpg",
       name: t("storiesInspire"),
       button: t("storiesInspireBtn"),
       link: "https://drive.google.com/drive/folders/1qFz5pozKpG7uJPWnxEJI-rMjVi0MzaA7?usp=drive_link",
